@@ -37,10 +37,10 @@
     <?php include "header.php"?>
 
   <main role="main" class="inner cover">
-    <p class="lead">E-Sport & Gaming Clan</p>
-    <h1 class="cover-heading">Cowboy with Lamas</h1>
+    <p class="lead"id="Description">E-Sport & Gaming Clan</p>
+    <h1 class="cover-heading" id="ClanName">Cowboy with Lamas</h1>
     <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+      <a href="#" class="btn btn-lg btn-secondary" id="StartButton">Auf gehts Attacke!</a>
     </p>
   </main>
 

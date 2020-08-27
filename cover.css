@@ -97,6 +97,16 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
+#Description {
+  margin-bottom: 0px;
+}
+#ClanName {
+  text-transform: uppercase;
+}
+#StartButton {
+  margin-top: 10%;
+  padding: 20px;
+}
 
 
 /*
