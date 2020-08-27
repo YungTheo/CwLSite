@@ -1,0 +1,14 @@
+.footerbg {
+  background: black;
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 0 0 !important;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
