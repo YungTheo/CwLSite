@@ -46,7 +46,7 @@
   </header>
 
   <main role="main" class="inner cover">
-    <p class="lead">Export & Gaming Clan</p>
+    <p class="lead">E-Sport & Gaming Clan</p>
     <h1 class="cover-heading">Cowboy with Lamas</h1>
     <p class="lead">
       <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
