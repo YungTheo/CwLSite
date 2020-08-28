@@ -57,6 +57,7 @@ body {
 .nav-elements {
   text-transform: uppercase;
   font-size: 20px;
+  font-weight: 600;
 }
 #navbar {
   align-items: baseline;
