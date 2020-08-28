@@ -11,6 +11,8 @@
   <!-- Bootstrap core CSS -->
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/footer.css" rel="stylesheet">
+  <link href="/css/team.css" rel="stylesheet">
+
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
