@@ -61,7 +61,7 @@
             <textarea name="text" class="form-control height form-elements" style="height: 12rem;" id="text" rows="3"></textarea>
           </div>
           <div class="g-recaptcha" data-sitekey="6LceVDUUAAAAAJ-HCsG3iaK0VNXwncS1bcjoPUME" id="captcha"></div>
-          <button name="submit" type="submit" value="submit" id="submit" class="btn btn-primary btn-marg" aria-describedby="buttonHelp" placeholder="Absenden">Absenden</button>
+          <button name="submit" type="submit" value="submit" id="submit" class="btn btn-white btn-marg" aria-describedby="buttonHelp" placeholder="Absenden">Absenden</button>
         </form>
       </div>
       <div class="col-md-2">

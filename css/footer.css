@@ -17,7 +17,7 @@
 
 .form-elements {
   border: 0.3rem solid white !important;
-  border-radius: none !important;
+  border-radius: 0 !important;
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .form-elements::placeholder {
@@ -27,6 +27,22 @@
 #text {
   min-height: 12rem !important;
 }
+
+.btn-white {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: white !important;
+  border: 0.3rem solid white !important;
+
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: black !important;
+  border: 0.3rem solid white !important;
+  border-radius: 0px !important;
+
+}
+
 
 .float_left {
   float: left;
