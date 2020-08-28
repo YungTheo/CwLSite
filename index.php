@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="/css/footer.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -33,18 +33,24 @@
     <link href="cover.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div class="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
     <?php include "header.php"?>
 
   <main role="main" class="inner cover">
     <p class="lead"id="Description">E-Sport & Gaming Clan</p>
     <h1 class="cover-heading" id="ClanName">Cowboy with Lamas</h1>
     <p class="lead">
+<<<<<<< HEAD
+      <a href="#" class="btn btn-lg btn-secondary cta">Learn more</a>
+=======
       <a href="#" class="btn btn-lg btn-secondary" id="StartButton">Auf gehts Attacke!</a>
+>>>>>>> 25f7bf8f50072b91d4fe7a8cf4b4b7524ecf7aba
     </p>
+    <?php include "footer.php"?>
   </main>
 
-  <?php include "footer.php"?>
+
 </div>
+
 </body>
 </html>

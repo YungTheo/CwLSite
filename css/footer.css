@@ -1,0 +1,35 @@
+.footerbg {
+  background: black;
+  position: fixed;
+  bottom: 0;
+  padding: 0 0 0 0 !important;
+  min-width: 100%;
+  left: 0;
+}
+
+.footerbg > div > div > a {
+  padding: 0.5rem;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.cookies_wrapper {
+  position: fixed;
+  bottom: 0;
+  padding: 1rem 0 1rem 0 !important;
+  min-width: 100%;
+  left: 0;
+  background: black;
+  z-index: 99;
+
+}
+
+.btn_cookies {
+  margin-top: 0.5rem;
+}
