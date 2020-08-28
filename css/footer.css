@@ -17,7 +17,7 @@
 
 .form-elements {
   border: 0.3rem solid white !important;
-  border-radius: none !important;
+  border-radius: 0 !important;
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .form-elements::placeholder {
@@ -27,6 +27,24 @@
 #text {
   min-height: 12rem !important;
 }
+
+.btn-white {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: white !important;
+  border: 0.3rem solid white !important;
+  border-radius: 0px !important;
+  font-weight: 600;
+
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: black !important;
+  border: 0.3rem solid white !important;
+  border-radius: 0px !important;
+
+}
+
 
 .float_left {
   float: left;
@@ -61,4 +79,38 @@
 
 .btn_cookies {
   margin-top: 0.5rem;
+}
+
+.nav-elements:hover::before {
+  position: relative;
+  height: 2px;
+  background: #fff;
+  content: ' ';
+  display:inline-block;
+  transform: translateY(-5px);
+  background-color: white;
+  width: 100%;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+
+.nav-elements:hover::after {
+  position: relative;
+  height: 2px;
+  background: #fff;
+  content: ' ';
+  display:inline-block;
+  transform: translateY(-5px);
+  background-color: white;
+  width: 100%;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 2.5rem;
 }
