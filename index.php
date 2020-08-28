@@ -37,7 +37,7 @@
     <?php include "header.php"?>
 
   <main role="main" class="inner cover">
-    <p class="lead"id="Description">E-Sport & Gaming Clan</p>
+    <h2 class="lead"id="Description">E-Sport & Gaming Clan</h2>
     <h1 class="cover-heading" id="ClanName">Cowboy with Lamas</h1>
     <p class="lead">
       <a href="#" class="btn btn-lg btn-secondary" id="StartButton">Auf gehts Attacke!</a>

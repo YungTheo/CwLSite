@@ -106,10 +106,12 @@ body {
   font-weight: 700;
 }
 #Description {
+  font-size: 27px;
   margin-bottom: 0px;
   margin-top: 5%;
 }
 #ClanName {
+  font-size: 55px;
   text-transform: uppercase;
 }
 #StartButton {
