@@ -11,6 +11,20 @@
   padding: 0.5rem;
 }
 
+.form-group {
+  text-align: left;
+}
+
+.form-elements {
+  border: 0.3rem solid white !important;
+  border-radius: none !important;
+  background-color: rgba(0, 0, 0, 20) !important;
+}
+
+#text {
+  min-height: 12rem !important;
+}
+
 .float_left {
   float: left;
 }
@@ -29,6 +43,8 @@
   }
 }
 
+
+
 .cookies_wrapper {
   position: fixed;
   bottom: 0;
@@ -42,12 +58,4 @@
 
 .btn_cookies {
   margin-top: 0.5rem;
-}
-
-.form-group {
-  text-align: left;
-}
-
-#text {
-  min-height: 12rem !important;
 }
