@@ -29,10 +29,10 @@ if (!isset($_COOKIE["cwlclan"]))
 
   <div class="footerbg container-fluid px-0">
         <div class="row">
-          <div class="col-md">
+          <div class="col">
             <a href="Impressum" class="float_right">Impressum</a>
           </div>
-          <div class="col-md">
+          <div class="col">
             <a href="Datenschutz" class="float_left">Datenschutz</a>
           </div>
         </div>

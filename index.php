@@ -40,11 +40,7 @@
     <p class="lead"id="Description">E-Sport & Gaming Clan</p>
     <h1 class="cover-heading" id="ClanName">Cowboy with Lamas</h1>
     <p class="lead">
-<<<<<<< HEAD
-      <a href="#" class="btn btn-lg btn-secondary cta">Learn more</a>
-=======
       <a href="#" class="btn btn-lg btn-secondary" id="StartButton">Auf gehts Attacke!</a>
->>>>>>> 25f7bf8f50072b91d4fe7a8cf4b4b7524ecf7aba
     </p>
     <?php include "footer.php"?>
   </main>
