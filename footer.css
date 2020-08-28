@@ -43,3 +43,11 @@
 .btn_cookies {
   margin-top: 0.5rem;
 }
+
+.form-group {
+  text-align: left;
+}
+
+#text {
+  min-height: 12rem !important;
+}
