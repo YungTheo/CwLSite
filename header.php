@@ -1,4 +1,4 @@
-<header class="masthead mb-auto">
+<header class="masthead">
     <div class="inner">
       <nav class="nav justify-content-center" id="navbar">
         <a class="nav-link active nav-elements" href="#">Team</a>
