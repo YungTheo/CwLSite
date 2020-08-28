@@ -6,7 +6,10 @@
 <div class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
         <script>
             $( '#kontakt').submit( function() {
 
@@ -47,21 +50,23 @@
 
           <div class="form-group" id="frmGrpName">
             <label for="name" class="label">Name:</label>
-            <input name="name" type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Name" required>
+            <input name="name" type="name" class="form-control form-elements" id="name" aria-describedby="nameHelp" placeholder="Name" required>
           </div>
           <div class="form-group" id="frmGrpEmail">
             <label for="email" class="label">E-Mail:</label>
-            <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="E-Mail eingeben..." required>
+            <input name="email" type="email" class="form-control form-elements" id="email" aria-describedby="emailHelp" placeholder="E-Mail eingeben..." required>
           </div>
           <div class="form-group" id="frmGrpText">
             <label for="text" class="label">Ihre Nachricht:</label>
-            <textarea name="text" class="form-control height" style="height: 12rem;" id="text" rows="3"></textarea>
+            <textarea name="text" class="form-control height form-elements" style="height: 12rem;" id="text" rows="3"></textarea>
           </div>
           <div class="g-recaptcha" data-sitekey="6LceVDUUAAAAAJ-HCsG3iaK0VNXwncS1bcjoPUME" id="captcha"></div>
           <button name="submit" type="submit" value="submit" id="submit" class="btn btn-primary btn-marg" aria-describedby="buttonHelp" placeholder="Absenden">Absenden</button>
         </form>
       </div>
+      <div class="col-md-2">
 
+      </div>
 
       <?php include "footer.php"?>
 
