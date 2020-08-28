@@ -107,12 +107,13 @@ body {
 }
 #Description {
   margin-bottom: 0px;
+  margin-top: 5%;
 }
 #ClanName {
   text-transform: uppercase;
 }
 #StartButton {
-  margin-top: 10%;
+  margin-top: 5%;
   padding: 20px;
 }
 
