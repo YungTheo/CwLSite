@@ -8,6 +8,10 @@
       <?php include "nav.php"?>
       <div class="container-fluid">
       <main role="main" class="inner cover">
+        <div class="row">
+          <div class="col-xl-12">
+
+
         <h2 class="lead"id="Description">E-Sport & Gaming Clan</h2>
         <h1 class="cover-heading" id="ClanName">Cowboy with Lamas</h1>
         <p class="lead">
@@ -16,6 +20,9 @@
       </main>
       <?php include "footer.php"?>
     </div>
+    </div>
+    </div>
+
     </div>
   </body>
 </html>
