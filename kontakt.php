@@ -1,6 +1,8 @@
+<!doctype html>
+<html lang="en">
 <?php include "header.php"?>
   <body class="text-center">
-    <div class="container-fluid">
+    <div class="container-fluid px-0 blackbox">
       <?php include "nav.php"?>
 
       <div class="container-fluid">

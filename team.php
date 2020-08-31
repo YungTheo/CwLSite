@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <?php include "header.php"?>
-    <body>
-        <div class="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <?php include "nav.php"?>
+    <!doctype html>
+    <html lang="en">
+      <?php include "header.php"?>
+      <body class="text-center">
+        <div class="container-fluid px-0 blackbox">
+
+
+          <?php include "nav.php"?>
+          <div class="container-fluid">
+          <main role="main" class="inner cover">
             <div class="container">
                 <div class="row col-xl-12">
                     <h1>Counter-Strike: Global Offensive</h1>
@@ -19,7 +23,12 @@
                     <div class="col-sm-2 TeamItem">Inhalt 5</div>
                     <div class="col-sm-2 TeamItem">Inhalt 6</div>
                 </div>
-            </div>  
-        </div>  
-    </body>
-</html> 
+            </div>
+        </div>
+      </main>
+      <?php include "footer.php"?>
+    </div>
+    </div>
+
+  </body>
+</html>
