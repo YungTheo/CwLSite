@@ -1,4 +1,13 @@
     <!doctype html>
+    <?php
+        $spielerDaten = array('Random,Muster420,Max Mustermann,GE',
+            'Random,Muster420,Max Mustermann,AT',
+            'Random,Muster420,Max Mustermann,RT',
+            'Random,Muster420,Max Mustermann,OJ',
+            'Random,Muster420,Max Mustermann,GG',
+            'Random,Muster420,Max Mustermann,PJ'
+        );
+    ?>
     <html lang="en">
       <?php include "header.php"?>
       <body class="text-center">
@@ -13,15 +22,18 @@
                     <h1>Counter-Strike: Global Offensive</h1>
                 </div>
                 <div class="row">
-                    <div class="col-sm-2 TeamItem">
-                        <div class="Position" id="" >
-
-                    </div>
-                    <div class="col-sm-2 TeamItem">Inhalt 2</div>
-                    <div class="col-sm-2 TeamItem">Inhalt 3</div>
-                    <div class="col-sm-2 TeamItem">Inhalt 4</div>
-                    <div class="col-sm-2 TeamItem">Inhalt 5</div>
-                    <div class="col-sm-2 TeamItem">Inhalt 6</div>
+                    <?php
+                        foreach($spielerDaten AS $spielerString) {
+                            $spieler = explode(',', $spielerString);
+                            echo('<div class="col-sm-2">');
+                            echo('<div class="TeamItem">');
+                            echo('<div class="position">' . htmlentities($spieler[0], ENT_QUOTES, "UTF-8") . '</div>');
+                            echo('<div class="igName">' . htmlentities($spieler[1], ENT_QUOTES, "UTF-8") . '</div>');
+                            echo('<div class="name">' . htmlentities($spieler[2], ENT_QUOTES, "UTF-8") . '</div>');
+                            echo('<div class="country">' . htmlentities($spieler[3], ENT_QUOTES, "UTF-8") . '</div>');
+                            echo('</div></div>');
+                        }
+                    ?>
                 </div>
             </div>
         </div>
