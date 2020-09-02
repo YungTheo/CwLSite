@@ -17,6 +17,7 @@ app.use(jwt());
 app.use('/users', require('./users/users.controller'));
 app.use('/onlinetimes', require('./onlinetimes/onlinetime.controller'));
 app.use('/events', require('./events/event.controller'));
+app.use('/emails', require('./emails/email.controller'));
 // global error handler
 app.use(errorHandler);
 
