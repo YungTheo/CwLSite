@@ -1,23 +1,27 @@
-<!DOCTYPE html>
-<?php 
-    $spielerDaten = array('Random,Muster420,Max Mustermann,DE',
-        'Random,Muster420,Max Mustermann,DE',
-        'Random,Muster420,Max Mustermann,DE',
-        'Random,Muster420,Max Mustermann,AT',
-        'Random,Muster420,Max Mustermann,CHE',
-        'Random,Muster420,Max Mustermann,DE'
-    );
-?>
-<html>
-    <?php include "header.php"?>
-    <body>
-        <div class="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <?php include "nav.php"?>
+    <!doctype html>
+    <?php
+        $spielerDaten = array('Random,Muster420,Max Mustermann,GE',
+            'Random,Muster420,Max Mustermann,AT',
+            'Random,Muster420,Max Mustermann,RT',
+            'Random,Muster420,Max Mustermann,OJ',
+            'Random,Muster420,Max Mustermann,GG',
+            'Random,Muster420,Max Mustermann,PJ'
+        );
+    ?>
+    <html lang="en">
+      <?php include "header.php"?>
+      <body class="text-center">
+        <div class="container-fluid px-0 blackbox">
+
+
+          <?php include "nav.php"?>
+          <div class="container-fluid">
+          <main role="main" class="inner cover">
             <div class="container">
                 <div class="row col-xl-12">
                     <h1>Counter-Strike: Global Offensive</h1>
                 </div>
-                <div class="row">                   
+                <div class="row">
                     <?php
                         $countrySrc = '';
                         foreach($spielerDaten AS $spielerString) {
@@ -43,10 +47,15 @@
                             }
                             echo('<div class="country"><img src="' . htmlentities($countrySrc, ENT_QUOTES, "UTF-8") . '" alt="Deutsche Flagge" width="50" height="26"></div>');
                             echo('</div></div>');
-                        }              
+                        }
                     ?>
                 </div>
-            </div>  
-        </div>  
-    </body>
-</html> 
+            </div>
+        </div>
+      </main>
+      <?php include "footer.php"?>
+    </div>
+    </div>
+
+  </body>
+</html>

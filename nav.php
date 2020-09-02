@@ -1,10 +1,12 @@
-<header class="masthead">
-  <div class="container-fluid">
-    <div class="inner">
-      <nav class="nav justify-content-center" id="navbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active nav-elements" href="team.php">Team</a>
+      <nav class="nav navbar-light navbar-expand-lg ultraLight" id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a class="nav-link nav-elements" href="team.php">Team<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-elements" href="kalender.php">Kalender</a>
@@ -13,12 +15,11 @@
             <a class="nav-link" href="index.php"><img src="./img/logo.png" alt="Clan Logo"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-elements" href  ="blog.php">Blog</a>
+            <a class="nav-link nav-elements" href="blog.php">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-elements" href="kontakt.php">Kontakt</a>
           </li>
         </ul>
-      </nav>
-    </div>
-  </header>
+      </div>
+    </nav>
