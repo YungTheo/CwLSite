@@ -1,0 +1,18 @@
+.TeamItem {
+    background-color: rgba(51, 51, 77,0.8); 
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.position {
+    color: coral;
+}
+
+.igName {
+    font-style: italic;
+}
+
+.name {
+    font-size: small;
+}
