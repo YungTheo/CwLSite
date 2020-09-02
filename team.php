@@ -19,7 +19,7 @@
                 </div>
                 <div class="row">                   
                     <?php
-                        $countrySrc = ''; //Problem!
+                        $countrySrc = '';
                         foreach($spielerDaten AS $spielerString) {
                             $spieler = explode(',', $spielerString);
                             echo('<div class="col-sm-2">');
@@ -41,7 +41,6 @@
                                     $countrySrc = "/img/countryImg/germanFlag.png";
                                 break;
                             }
-                            //echo($countrySrc);
                             echo('<div class="country"><img src="' . htmlentities($countrySrc, ENT_QUOTES, "UTF-8") . '" alt="Deutsche Flagge" width="50" height="26"></div>');
                             echo('</div></div>');
                         }              
