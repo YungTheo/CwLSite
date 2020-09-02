@@ -2,10 +2,10 @@
     <?php
         $spielerDaten = array('Random,Muster420,Max Mustermann,GE',
             'Random,Muster420,Max Mustermann,AT',
-            'Random,Muster420,Max Mustermann,RT',
-            'Random,Muster420,Max Mustermann,OJ',
-            'Random,Muster420,Max Mustermann,GG',
-            'Random,Muster420,Max Mustermann,PJ'
+            'Random,Muster420,Max Mustermann,DE',
+            'Random,Muster420,Max Mustermann,DE',
+            'Random,Muster420,Max Mustermann,CHE',
+            'Random,Muster420,Max Mustermann,DE'
         );
     ?>
     <html lang="en">
