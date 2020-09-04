@@ -1,5 +1,5 @@
 {
-    "/api": {
+    "/api/events/": {
     "target": "http://94.130.150.189:4000/events",
     "secure": false,
     "logLevel": "debug",

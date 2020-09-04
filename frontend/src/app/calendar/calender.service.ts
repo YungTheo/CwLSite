@@ -4,7 +4,7 @@ import { HttpErrorResponse, HttpResponse, HttpClient } from '@angular/common/htt
 import { environment } from '../../environments/environment';
 
 import { Observable, throwError } from 'rxjs';
-import { catchError, retry } from 'rxjs/operators';
+import { catchError, retry, map, tap} from 'rxjs/operators';
 
 
 
@@ -33,10 +33,7 @@ export interface Event {
 
         getEvents(): Observable<Event[]> {
 
-            this.http.get(environment.myEndpoint + '/events/').subscribe((data) => {
-            console.log(data)
-            
-    });
-    return;
-            
-          }}
+            return this.http.get<Event[]>("http://94.130.150.189:4000/events")
+          
+          }
+  }
