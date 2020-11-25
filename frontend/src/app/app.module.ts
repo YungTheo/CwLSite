@@ -14,6 +14,7 @@ import { CalendarService } from './calendar/calender.service';
 import { TeamComponent } from './team/team.component';
 import { CookieService } from 'ngx-cookie-service';
 import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
   dayGridPlugin,
@@ -32,7 +33,8 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FullCalendarModule 
+    FullCalendarModule,
+    FormsModule
   ],
   providers: [
     CookieService,

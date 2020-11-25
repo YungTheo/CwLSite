@@ -14,19 +14,16 @@ export class CalendarComponent implements OnInit {
   calendarOptions: CalendarOptions = {
     initialView: 'dayGridMonth',
     height: '35rem',
-    dateClick: this.handleDateClick.bind(this),
-    eventClick: this.handleEventClick.bind(this),
+    dateClick: this.handleDateClick.bind(this)
   };
 
   ngOnInit(): void {
     this.calendarService.getEvents().subscribe(result => this.calendarOptions.events = result);
+    
   }
   handleDateClick(arg) {
+    console.log(this.calendarOptions.events)
     alert('date click! ' + arg.dateStr)
-  }
-
-  handleEventClick(arg) {
-    alert('event click! ' + arg.events)
   }
 
 }
